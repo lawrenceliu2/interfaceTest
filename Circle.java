@@ -16,7 +16,7 @@ public class Circle extends Shape implements Area{
     }
 
     public double getArea(){
-	return Math.PI*Math.pow(radius,2);
+	return Math.PI*Math.pow(getRadius(),2);
     }
 
 }
