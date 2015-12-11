@@ -12,7 +12,7 @@ public class Prism extends Rectangle implements Volume{
     }
 
     public String toString(){
-	return "A Prism that is "+getName()+" that is "+getLength()+" by "+getWidth()+" by "+getHeight();
+	return "Prism "+getName()+" that is "+getLength()+" by "+getWidth()+" by "+getHeight();
     }
 
     public double getVolume(){
